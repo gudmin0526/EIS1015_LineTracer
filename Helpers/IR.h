@@ -9,7 +9,13 @@
 #define IR_IR_H_
 
 #include "msp.h"
+#include ".\Clock.h"
+#include <stdio.h>
 
 void IR_Init(void);
+void On_IR_Emitter(uint8_t mask_P5, uint8_t mask_P9);
+void Off_IR_Emitter(uint8_t mask_P5, uint8_t mask_P9);
+void Read_IR_Sensor(uint8_t sensors[8]);
+void Print_IR_Sensor(uint8_t sensors[8]);
 
 #endif /* IR_IR_H_ */

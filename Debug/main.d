@@ -24,9 +24,12 @@ main.obj: ../Helpers/Led.h
 main.obj: ../Helpers/SysTick.h
 main.obj: ../Helpers/Motor.h
 main.obj: ../Helpers/Timer.h
+main.obj: ../Helpers/Clock.h
 main.obj: ../Helpers/IR.h
+main.obj: ../Helpers/Clock.h
 main.obj: C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
 main.obj: C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
+main.obj: ../Helpers/Switch.h
 
 ../main.c:
 
@@ -76,9 +79,15 @@ C:/ti/ccs1270/ccs/ccs_base/arm/include/system_msp432p401r.h:
 
 ../Helpers/Timer.h:
 
+../Helpers/Clock.h:
+
 ../Helpers/IR.h:
+
+../Helpers/Clock.h:
 
 C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
 
 C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
+
+../Helpers/Switch.h:
 

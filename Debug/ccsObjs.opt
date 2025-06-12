@@ -5,6 +5,7 @@
 "./Helpers/IR.obj"
 "./Helpers/Led.obj"
 "./Helpers/Motor.obj"
+"./Helpers/Switch.obj"
 "./Helpers/SysTick.obj"
 "./Helpers/Timer.obj"
 "../msp432p401r.cmd"

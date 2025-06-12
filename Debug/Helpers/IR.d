@@ -20,6 +20,9 @@ Helpers/IR.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/core_cm4.h
 Helpers/IR.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h
 Helpers/IR.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h
 Helpers/IR.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/system_msp432p401r.h
+Helpers/IR.obj: ../Helpers/Clock.h
+Helpers/IR.obj: C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
+Helpers/IR.obj: C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
 
 ../Helpers/IR.c:
 
@@ -60,4 +63,10 @@ C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h:
 C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h:
 
 C:/ti/ccs1270/ccs/ccs_base/arm/include/system_msp432p401r.h:
+
+../Helpers/Clock.h:
+
+C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
+
+C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
 

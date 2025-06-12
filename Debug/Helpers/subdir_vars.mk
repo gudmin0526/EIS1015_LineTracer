@@ -10,6 +10,7 @@ C_SRCS += \
 ../Helpers/IR.c \
 ../Helpers/Led.c \
 ../Helpers/Motor.c \
+../Helpers/Switch.c \
 ../Helpers/SysTick.c \
 ../Helpers/Timer.c 
 
@@ -18,6 +19,7 @@ C_DEPS += \
 ./Helpers/IR.d \
 ./Helpers/Led.d \
 ./Helpers/Motor.d \
+./Helpers/Switch.d \
 ./Helpers/SysTick.d \
 ./Helpers/Timer.d 
 
@@ -26,6 +28,7 @@ OBJS += \
 ./Helpers/IR.obj \
 ./Helpers/Led.obj \
 ./Helpers/Motor.obj \
+./Helpers/Switch.obj \
 ./Helpers/SysTick.obj \
 ./Helpers/Timer.obj 
 
@@ -34,6 +37,7 @@ OBJS__QUOTED += \
 "Helpers\IR.obj" \
 "Helpers\Led.obj" \
 "Helpers\Motor.obj" \
+"Helpers\Switch.obj" \
 "Helpers\SysTick.obj" \
 "Helpers\Timer.obj" 
 
@@ -42,6 +46,7 @@ C_DEPS__QUOTED += \
 "Helpers\IR.d" \
 "Helpers\Led.d" \
 "Helpers\Motor.d" \
+"Helpers\Switch.d" \
 "Helpers\SysTick.d" \
 "Helpers\Timer.d" 
 
@@ -50,6 +55,7 @@ C_SRCS__QUOTED += \
 "../Helpers/IR.c" \
 "../Helpers/Led.c" \
 "../Helpers/Motor.c" \
+"../Helpers/Switch.c" \
 "../Helpers/SysTick.c" \
 "../Helpers/Timer.c" 
 

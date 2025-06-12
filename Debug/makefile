@@ -17,6 +17,7 @@ ORDERED_OBJS += \
 "./Helpers/IR.obj" \
 "./Helpers/Led.obj" \
 "./Helpers/Motor.obj" \
+"./Helpers/Switch.obj" \
 "./Helpers/SysTick.obj" \
 "./Helpers/Timer.obj" \
 "../msp432p401r.cmd" \
@@ -151,8 +152,8 @@ Week8.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "main.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" "Helpers\Clock.obj" "Helpers\IR.obj" "Helpers\Led.obj" "Helpers\Motor.obj" "Helpers\SysTick.obj" "Helpers\Timer.obj" 
-	-$(RM) "main.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" "Helpers\Clock.d" "Helpers\IR.d" "Helpers\Led.d" "Helpers\Motor.d" "Helpers\SysTick.d" "Helpers\Timer.d" 
+	-$(RM) "main.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" "Helpers\Clock.obj" "Helpers\IR.obj" "Helpers\Led.obj" "Helpers\Motor.obj" "Helpers\Switch.obj" "Helpers\SysTick.obj" "Helpers\Timer.obj" 
+	-$(RM) "main.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" "Helpers\Clock.d" "Helpers\IR.d" "Helpers\Led.d" "Helpers\Motor.d" "Helpers\Switch.d" "Helpers\SysTick.d" "Helpers\Timer.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

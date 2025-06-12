@@ -5,7 +5,6 @@
  *      Author: devkim
  */
 
-#include "msp.h"
 #include ".\Motor.h"
 
 void Motor_Init(void) {
@@ -50,30 +49,37 @@ void Right_Forward() {
 void Right_Backward() {
     P5->OUT |= 0x20;
 }
-void Move_Forward() {
+
+void Move_Forward(uint16_t time) {
     Left_Forward();
     Right_Forward();
     Move(1500, 1500);
-    Clock_Delay1ms(2000);
+    Clock_Delay1ms(time);
 }
 
-void Move_Backward() {
+void Move_Backward(uint16_t time) {
     Left_Backward();
     Right_Backward();
     Move(1500, 1500);
-    Clock_Delay1ms(2000);
+    Clock_Delay1ms(time);
 }
 
-void Rotate_Left(int degree) {
+void Rotate_Left(uint16_t degree) {
     Left_Backward();
     Right_Forward();
     Move(1500, 1500);
-    Clock_Delay1ms(22 * degree);
+    Clock_Delay1ms(25 * degree);
 }
 
-void Rotate_Right(int degree) {
+void Rotate_Right(uint16_t degree) {
     Left_Forward();
     Right_Backward();
     Move(1500, 1500);
-    Clock_Delay1ms(22 * degree);
+    Clock_Delay1ms(25 * degree);
 }
+
+void Motor_Stop(uint16_t time) {
+    P3->OUT &= ~0xC0;
+    Clock_Delay1ms(time);
+}
+

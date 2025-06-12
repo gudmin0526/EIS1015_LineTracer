@@ -11,7 +11,7 @@
 #include "msp.h"
 #include <stdint.h>
 
-void (*TimerA2Task)(void);
+extern void (*TimerA2Task)(void);
 void TimerA2_Init(void(*task)(void), uint16_t period);
 void PWM_Init34(uint16_t period, uint16_t duty3, uint16_t duty4);
 void PWM_Duty3(uint16_t duty3);

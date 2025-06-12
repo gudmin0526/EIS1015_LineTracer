@@ -10,9 +10,10 @@
 
 #include "msp.h"
 
-#define LED_RED   (1 << 0)
-#define LED_GREEN (1 << 1)
-#define LED_BLUE  (1 << 2)
+#define LED_RED   0x01
+#define LED_GREEN 0x02
+#define LED_BLUE  0x04
+#define LED_WHITE 0x07
 
 void Led_Init(void);
 void TurnOn_Led(int color);

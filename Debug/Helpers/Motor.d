@@ -1,6 +1,7 @@
 # FIXED
 
 Helpers/Motor.obj: ../Helpers/Motor.c
+Helpers/Motor.obj: ../Helpers/Motor.h
 Helpers/Motor.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/msp.h
 Helpers/Motor.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/msp432p401r.h
 Helpers/Motor.obj: C:/ti/ccs1270/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdint.h
@@ -19,10 +20,12 @@ Helpers/Motor.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/core_cm4.h
 Helpers/Motor.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h
 Helpers/Motor.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h
 Helpers/Motor.obj: C:/ti/ccs1270/ccs/ccs_base/arm/include/system_msp432p401r.h
-Helpers/Motor.obj: ../Helpers/Motor.h
 Helpers/Motor.obj: ../Helpers/Timer.h
+Helpers/Motor.obj: ../Helpers/Clock.h
 
 ../Helpers/Motor.c:
+
+../Helpers/Motor.h:
 
 C:/ti/ccs1270/ccs/ccs_base/arm/include/msp.h:
 
@@ -60,7 +63,7 @@ C:/ti/ccs1270/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h:
 
 C:/ti/ccs1270/ccs/ccs_base/arm/include/system_msp432p401r.h:
 
-../Helpers/Motor.h:
-
 ../Helpers/Timer.h:
+
+../Helpers/Clock.h:
 
